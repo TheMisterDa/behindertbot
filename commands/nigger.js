@@ -1,0 +1,17 @@
+const Discord = require("discord.js")
+const client = new Discord.Client;
+const botconfig = require("../config/config.json")
+
+
+module.exports.run = async (client, message, args) => {
+    message.channel.send("du hurensohn")
+}
+
+
+module.exports.config = {
+    name: "nigger",
+    description: "",
+    usage: "?nigger",
+    accessableby: "Members",
+    aliases: ['ni']
+}
